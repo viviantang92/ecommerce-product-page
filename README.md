@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://viviantang11.github.io/ecommerce-product-page/)
+- Live Site URL: [https://viviantang11.github.io/ecommerce-product-page/]
 
 ## My process
 
