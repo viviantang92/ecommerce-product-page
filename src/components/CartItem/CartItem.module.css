@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem;
+}
+.main > img:first-child{
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.main > img:last-child{
+    height: 15px;
+    margin-left: 0.5rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.prices{
+    display: flex;
+}
+p{
+    color: var(--darkGray);
+    line-height: 1.5;
+}
+.total{
+    font-weight: 700;
+}
+.trash:hover{
+    cursor: pointer;
+}

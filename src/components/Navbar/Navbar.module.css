@@ -1,0 +1,141 @@
+@import '../../App.css';
+
+nav{
+	padding: 1rem 1.5rem;
+    display: flex;
+	align-items: center;
+    justify-content: space-between;
+	position: relative;
+}
+
+.logo{
+    margin-left: 1rem;
+    flex-basis: 30%;
+}
+/* .links{
+    display: none;
+}
+.linksOpen{
+    position: fixed;
+    top: 0;
+    background-color: red;
+} */
+.menu {
+    display: block;
+    top: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 6;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.userImage{
+    max-width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.cart{
+    font-size: 1.5rem;
+    color: var(--darkGray);
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.cartCount{
+    position: relative;
+}
+.close{
+    display: none;
+}
+
+.span{
+    position: absolute;
+    top:-10px;
+    right: 10px;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 0 7px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+/* .sidebar{
+    display:block;
+    background-color: aqua;
+} */
+
+@media screen and (min-width: 500px){
+    nav {
+        margin: 2.5rem 10.5rem;
+        padding:0 0 3rem 0;
+	    border-bottom: 0.1px solid rgb(230, 230, 230);
+    }
+    .logo {
+        flex-basis: 10%;
+        margin:0;
+    }
+    .links {
+        display: flex;
+        flex-basis: 65%;
+    }
+    .links > li{
+        margin-left: 3rem;
+        display: block;
+        position: relative ;
+        cursor: pointer;
+    }
+    .links > li::after{
+        content: '';
+        height: 5px;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        bottom: -2.7rem;
+        opacity: 0;
+        transition: all ease-in-out 200ms;
+    }
+    .links li:hover::after{
+        opacity: 1;
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .user{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .userImage{
+        max-width: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 1px solid transparent;
+        transition: border ease-in-out 200ms;
+    }
+    .userImage:hover{
+        border: 2px solid var(--orange);
+    }
+    .cart{
+        margin-right: 3rem;
+    }
+    .span{
+        right: 40px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+@import '../../App.css';
+
+.counter{
+    background-color: var(--lightGray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.number{
+    font-weight: 700;
+}
+
+@media screen and (min-width: 500px) {
+    .counter{
+        margin: 0 1rem 0 0;
+        width: 200px;
+    }
+    .plus:hover, .minus:hover{
+        cursor: pointer;
+        opacity: 0.5;
+
+    }
+
+}

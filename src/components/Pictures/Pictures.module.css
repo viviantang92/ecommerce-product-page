@@ -1,0 +1,57 @@
+@import '../../App.css';
+
+.Pictures{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.product{
+    height: 300px;
+    width: 100vw;
+    object-fit: cover;
+}
+.thumbnail{
+    display: none;
+}
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    top: 40%;
+}
+.arrows > img{
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 0.8rem;
+    margin: 0 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .product{
+    width: 450px;
+    height: 440px;
+    border-radius: 15px;
+  }
+  .thumbnail{
+    display: inline-flex;
+    width: 90px;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+  }
+  .thumbnail:not(:last-child){
+    margin-right: 1.8rem;
+  }
+  .thumbnail:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .active{
+    opacity: 0.5;
+    border: 3px solid var(--orange);
+  }
+  .arrows{
+    display: none;
+  }
+}
