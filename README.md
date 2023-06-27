@@ -1,21 +1,11 @@
 # E-commerce product page
 
-This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+It´s a responsive e-commerce website.
 
 ### Links
 
-- Live Site URL: [https://viviantang92.github.io/ecommerce-product-page/]
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Open a lightbox gallery by clicking on the large product image
-- Switch the large product image by clicking on the small thumbnail images
-- Add items to the cart
-- View the cart and remove items from it
+- Live Site: [E-commerce website](https://viviantang92.github.io/ecommerce-product-page/)
+- Solution: [Code](https://github.com/viviantang92/ecommerce-product-page/tree/main/src)
 
 ### Screenshot
 
@@ -24,11 +14,18 @@ Users should be able to:
 
 ### Built with
 
+- [React](https://reactjs.org/) - JS library
+- Mobile-first workflow
 - Semantic HTML5 markup
 - Flexbox
-- Mobile-first workflow
 - Module CSS
 - Context
-- [React](https://reactjs.org/) - JS library
 
+## Author
 
+- Frontend Mentor - [viviantang92](https://www.frontendmentor.io/profile/viviantang92)
+
+### Ack
+### Frontend Mentor - E-commerce product page
+
+This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6).
