@@ -31,7 +31,7 @@ export default function Content() {
               <p>50%</p>
           </div>
           <div className={style.before}>
-              <p>$250.00</p>
+              <del>$250.00</del>
           </div>
       </div>
 

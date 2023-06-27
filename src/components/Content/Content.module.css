@@ -45,11 +45,10 @@ h1{
     border-radius: 5px;
     margin-left: 1rem;
 }
-.before > p{
+.before > del{
     color: var(--mediumGray);
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     font-weight: 700;
-
 }
 
 .counterCart{
