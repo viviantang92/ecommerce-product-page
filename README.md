@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://viviantang11.github.io/ecommerce-product-page/]
+- Live Site URL: [https://viviantang92.github.io/ecommerce-product-page/]
 
 ## My process
 
@@ -48,5 +48,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@VivianTang11](https://www.frontendmentor.io/profile/VivianTang11)
+- Frontend Mentor - [@viviantang92](https://www.frontendmentor.io/profile/viviantang92)
 
