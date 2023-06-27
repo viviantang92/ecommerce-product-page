@@ -23,7 +23,7 @@ function App() {
       <footer>
         <div class="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="blank">Frontend Mentor</a>. 
-          Coded by <a href="https://github.com/VivianTang11">Vivian Tang</a>.
+          Coded by <a href="https://github.com/viviantang92">Vivian Tang</a>.
         </div>       
       </footer>
 

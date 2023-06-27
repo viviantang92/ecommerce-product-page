@@ -1,19 +1,10 @@
-# Frontend Mentor - E-commerce product page solution
+# E-commerce product page
 
 This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+### Links
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-
-
-## Overview
+- Live Site URL: [https://viviantang92.github.io/ecommerce-product-page/]
 
 ### The challenge
 
@@ -31,12 +22,6 @@ Users should be able to:
 ![](./src/images/screenshots/mobile-screenshot.png)
 ![](./src/images/screenshots/desktop-screenshot.png)
 
-### Links
-
-- Live Site URL: [https://viviantang92.github.io/ecommerce-product-page/]
-
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -46,7 +31,4 @@ Users should be able to:
 - Context
 - [React](https://reactjs.org/) - JS library
 
-## Author
-
-- Frontend Mentor - [@viviantang92](https://www.frontendmentor.io/profile/viviantang92)
 
