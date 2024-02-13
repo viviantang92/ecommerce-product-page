@@ -42,7 +42,7 @@
     font-weight: 700;
     color: var(--darkGray);
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 1000px){
     .cart{
         top:-120px;
         right: -100px;

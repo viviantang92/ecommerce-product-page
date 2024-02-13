@@ -75,7 +75,7 @@ nav{
     background-color: aqua;
 } */
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 1000px){
     nav {
         margin: 2.5rem 10.5rem;
         padding:0 0 3rem 0;

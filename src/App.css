@@ -1,50 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
-:root{
-    --darkBlue: hsl(220, 13%, 13%);
-    --darkGray: hsl(219, 9%, 45%);
-    --mediumGray: hsl(220, 14%, 75%);
-    --lightGray: hsl(223, 64%, 98%);
-    --white: hsl(0, 0%, 100%);
-    --orange: hsl(26, 100%, 55%);
-    --paleOrange:hsl(25, 100%, 94%);
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Kumbh Sans', sans-serif;
+:root {
+  --darkBlue: hsl(220, 13%, 13%);
+  --darkGray: hsl(219, 9%, 45%);
+  --mediumGray: hsl(220, 14%, 75%);
+  --lightGray: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --orange: hsl(26, 100%, 55%);
+  --paleOrange: hsl(25, 100%, 94%);
 }
 
-main{
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;  
-}
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    position: fixed;
-    bottom: 0;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
-@media screen and (min-width: 500px) {
-    main{
-        flex-direction: row; 
-        margin: 5.5rem 13rem; 
-    }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    flex-direction: row;
+    margin: 5.5rem 13rem;
+  }
+}
